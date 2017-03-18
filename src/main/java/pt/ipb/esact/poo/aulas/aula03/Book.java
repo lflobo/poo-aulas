@@ -5,42 +5,42 @@ public class Book {
     int year;
     static int count;
 
-    Book() {
+    public Book() {
         this("not defined", -1);
     }
 
-    Book(String title) {
+    public Book(String title) {
         this(title, -1);
     }
 
-    Book(int year) {
+    public Book(int year) {
         this("not defined", year);
     }
 
-    Book(String title, int year) {
+    public Book(String title, int year) {
         setTitle(title);
         setYear(year);
         ++count;
     }
 
-    void setTitle(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
 
-    String getTitle() {
+    public String getTitle() {
         return title;
     }
 
-    void setYear(int year) {
+    public void setYear(int year) {
         if (year > 1900)
             this.year = year;
     }
 
-    int getYear() {
+    public int getYear() {
         return year;
     }
 
-    static void showCount() {
+    public static void showCount() {
         System.out.println("count = " + count);
     }
 

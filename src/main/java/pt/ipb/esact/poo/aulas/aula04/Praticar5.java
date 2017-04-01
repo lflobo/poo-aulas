@@ -1,6 +1,6 @@
 package pt.ipb.esact.poo.aulas.aula04;
 
-public class Praticar1 {
+public class Praticar5 {
     public static void main(String[] args) {
         Conta conta = new Conta("conta", 0);
         ContaPoupanca contaPoupanca = new ContaPoupanca(0);

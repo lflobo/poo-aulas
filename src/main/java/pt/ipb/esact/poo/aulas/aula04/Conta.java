@@ -1,19 +1,19 @@
 package pt.ipb.esact.poo.aulas.aula04;
 
-class Conta {
+public class Conta {
     String nome;
     double saldo;
 
-    Conta(String nome, double saldo) {
+    public Conta(String nome, double saldo) {
         this.nome = nome;
         this.saldo = saldo;
     }
 
-    void depositar(double quantia) {
+    public void depositar(double quantia) {
         saldo += quantia;
     }
 
-    double getSaldo() {
+    public double getSaldo() {
         return saldo;
     }
 }

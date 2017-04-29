@@ -16,4 +16,6 @@ public class Conta {
     public double getSaldo() {
         return saldo;
     }
+
+    private void x() {}
 }

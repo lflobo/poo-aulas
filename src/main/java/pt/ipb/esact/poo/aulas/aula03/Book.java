@@ -44,5 +44,12 @@ public class Book {
         System.out.println("count = " + count);
     }
 
-
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Book{");
+        sb.append("title='").append(title).append('\'');
+        sb.append(", year=").append(year);
+        sb.append('}');
+        return sb.toString();
+    }
 }
